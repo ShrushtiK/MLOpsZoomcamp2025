@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error
 
 
 #Set tracking URI and experiment
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
 mlflow.set_experiment("week2_experiment")
 
 
